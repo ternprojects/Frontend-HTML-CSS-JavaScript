@@ -34,6 +34,10 @@ p {
 	color: teal;
 	background-color: yellow;
 	/*background-color: transparent;*/
+	/* solid dashed dotted double groove*/
+	border: 10px green outset;
+	border-radius: 10px 20px 30px 40px;
+	border-top-color: violet;
 }
 
 .logo {
