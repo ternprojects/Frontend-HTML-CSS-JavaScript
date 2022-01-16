@@ -1,0 +1,21 @@
+body {
+	background: #ccc;
+}
+
+.colors div {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.red {
+	background-color:  red;
+}
+
+.orange {
+	background-color:  orange;
+}
+
+.green {
+	background-color:  green;
+}

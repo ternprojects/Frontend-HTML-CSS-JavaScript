@@ -43,6 +43,7 @@ p {
 .logo {
 	background-image: url(../img/main/logo.png);
 	background-repeat: no-repeat;
-	width: 255px;
-	height: 255px;
+	width: 225px;
+	height: 225px;
+	border: 1px solid black
 }
