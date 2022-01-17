@@ -1,5 +1,5 @@
 * {
-	color: rgb(128, 79, 0);
+	box-sizing: border-box;
 }
 
 body {
@@ -35,8 +35,8 @@ p {
 	background-color: yellow;
 	/*background-color: transparent;*/
 	/* solid dashed dotted double groove*/
-	border: 10px green outset;
-	border-radius: 10px 20px 30px 40px;
+	border: 5px green outset;
+	border-radius: 20px 20px 20px 20px;
 	border-top-color: violet;
 }
 
@@ -46,4 +46,38 @@ p {
 	width: 225px;
 	height: 225px;
 	border: 1px solid black
+}
+
+p {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: normal;
+	/* //line-height: 20px; */
+	/* //text-align: center; */
+	/* //text-transform: uppercase; */
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black
+}
+
+.box1 {
+	background-color: rgb(200, 106, 106);
+	/* margin: 10px 40px 20px 30px; */
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+.box2 {
+	background-color: rgb(83, 136, 172);
 }
