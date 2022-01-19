@@ -52,17 +52,20 @@ p {
 	font-family: Arial;
 	font-size: 15px;
 	font-weight: normal;
+	border: 0;
+	border-radius: 0;
+	background-color: transparent;
 	/* //line-height: 20px; */
 	/* //text-align: center; */
 	/* //text-transform: uppercase; */
 }
 
 a {
-	text-decoration: none;
+	/* text-decoration: none; */
 }
 
 ul {
-	list-style: none;
+	/* list-style: none; */
 }
 
 .box {
@@ -80,4 +83,35 @@ ul {
 
 .box2 {
 	background-color: rgb(83, 136, 172);
+}
+
+button {
+	cursor: pointer;
+	cursor: url()
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.menu li:nth-child(even) {
+	color: green;
+	text-decoration: underline;
+}
+
+table tr:nth-child(even) {
+	background-color: #333333;
+	color: white;
+}
+
+/* .menu li:last-child {
+	color: green;
+	text-decoration: underline;
+} */
+
+div::before{
+	content: "\00A9";
+	color: red;
+	text-decoration: underline;
 }
