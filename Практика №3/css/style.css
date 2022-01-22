@@ -1,0 +1,38 @@
+* {
+	box-sizing: content-box;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.box__inner {
+	text-align: center;
+}
+
+h1 {
+	max-width: 750px;
+	margin: 80px auto 30px;
+	line-height: 45px;
+	font-weight: normal;
+}
+
+p {
+	max-width: 900px;
+	margin: 0 auto 60px;
+	line-height: 30px;
+}
+
+.icon-box {
+	margin-bottom: 60px;
+}
+
+i {
+	color:rgb(26, 152, 156);
+	font-size: 80px;
+	margin: 0px 50px;
+}
