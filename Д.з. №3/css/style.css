@@ -1,0 +1,47 @@
+* {
+	box-sizing: content-box;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.box__content {
+	margin-right: 60px;
+	line-height: 30px;
+}
+
+.box__inner {
+	display: flex;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.box__item--icon-2 {
+	padding-top: 40px;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+h1,
+p {
+	text-align: left;
+	margin-left: 50px;
+}
+
+i {
+	font-size: 50px;
+	color: #f00;
+}
+
+i:hover {
+	background-color: blue;
+	color: #fff;
+}
